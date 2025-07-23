@@ -1,0 +1,7 @@
+if SHIELD_GPKB
+
+  config ZMK_GPKB
+    default "GPKB"
+
+endif
+  
