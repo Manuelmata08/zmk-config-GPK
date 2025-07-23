@@ -21,8 +21,8 @@
       
         default_layer {
         bindings = <
-          &my_lt 1 LEFT_ARROW
-          &kp RIGHT_ARROW
+          &my_lt 1 RIGHT_ARROW
+          &kp LEFT_ARROW
         >;
 };
 
