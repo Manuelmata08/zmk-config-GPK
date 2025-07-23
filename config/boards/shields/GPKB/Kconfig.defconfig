@@ -1,7 +1,12 @@
 if SHIELD_GPKB
 
-  config ZMK_KEYBOARD_NAME
-    default "GPKB"
+config ZMK_KEYBOARD_NAME
+    string "GPBK"
 
+config USB_DEVICE_PRODUCT
+    default ZMK_KEYBOARD_NAME
+
+config BT_DEVICE_NAME
+    default ZMK_KEYBOARD_NAME
 endif
   
