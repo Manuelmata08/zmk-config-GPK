@@ -4,9 +4,9 @@ config ZMK_KEYBOARD_NAME
     string "GPBK"
 
 config USB_DEVICE_PRODUCT
-    default ZMK_KEYBOARD_NAME
+    string "GPBK"
 
 config BT_DEVICE_NAME
-    default ZMK_KEYBOARD_NAME
+    string "GPBK"
 endif
   
