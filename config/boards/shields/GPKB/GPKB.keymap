@@ -1,7 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/behaviors.h
+#include <dt-bindings/zmk/behaviors.h>
 
 / {
     behaviors {
@@ -21,7 +21,7 @@
       
         default_layer {
         bindings = <
-          &my_lt LEFT_ARROW 1
+          &my_lt 1 LEFT_ARROW
           &kp RIGHT_ARROW
         >;
 };
