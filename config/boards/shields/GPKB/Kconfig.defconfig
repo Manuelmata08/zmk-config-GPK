@@ -1,6 +1,6 @@
 if SHIELD_GPKB
 
-  config ZMK_GPKB
+  config ZMK_KEYBOARD_NAME
     default "GPKB"
 
 endif
